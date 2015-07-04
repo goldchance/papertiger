@@ -13,3 +13,7 @@
 
 Route::get('/', 'HomeController@index');
 
+Route::get ("work", array(
+	"as" => "work", function() {
+	return View::make("work");
+}));
