@@ -20,7 +20,7 @@
 	<meta property="og:description" content="NYC Metro Area mobile and web design agency. We specialize in responsive design, branding, usability and complex CMS application development. Including custom work in SquareSpace, WordPress, ExpressionEngine and Shopify."/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="index.html" />
-    <meta property="og:image" content="assets/images/site/fb-share-image.jpg" />
+    <meta property="og:image" content="{{ asset('/images/site/fb-share-image.jpg') }}" />
 
     <link href="{{ asset('/css/vendor/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/vendor/bootstrap-glyphicons.css') }}" rel="stylesheet">
@@ -87,7 +87,7 @@
 
     <script> var polyfilter_scriptpath = '{{ asset("/js/vendor/filters-polify/index.html") }}';</script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="{{ asset("/js/vendor/jquery-1.10.1.min.js") }}"><\/script>')</script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
     <script src="{{ asset('/js/vendor/bootstrap.min.js') }}"></script>
     <script src="{{ asset('/js/vendor/jquery-ui.js') }}"></script>

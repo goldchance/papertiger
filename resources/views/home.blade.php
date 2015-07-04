@@ -6,7 +6,7 @@
 <div class="container wider">
 <div class="row">
 <div class="col-md-6 col-sm-4 col-xs-6 logo-wrapper">
-   <a href="company.html"><img src="assets/images/site/logo.png" width="98" height="98" title="Paper Tiger" alt="Paper Tiger Logo" /></a>
+   <a href="company.html"><img src="{{ asset('/images/site/logo.png') }}" width="98" height="98" title="Paper Tiger" alt="Paper Tiger Logo" /></a>
 </div> <!-- .logo-wrapper -->
 <div class="col-md-6 col-sm-8 col-xs-6 align-right">
    <ul class="top-nav hidden-xs">
@@ -26,7 +26,7 @@
 	   <!--<li class="socmed"> <a href="http://instagram.com/papertigerftw" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a> </li>-->
    </ul> <!-- .top-nav -->
 
-   <a href="#" class="menu-trigger visible-xs"><img src="assets/images/site/mobile-menu.png" alt="Menu" alt="Menu" /> </a>
+   <a href="#" class="menu-trigger visible-xs"><img src="{{ asset('/images/site/mobile-menu.png') }}" alt="Menu" alt="Menu" /> </a>
 
 </div>
 </div>
@@ -91,10 +91,10 @@
 <div class="container wider">
 <div class="row">
 <div class="col-xs-6 logo-wrapper">
-   <a href="index.html" class="popup-nav"><img src="assets/images/site/mobile-logo.png" alt="Paper Tiger Logo" /></a>
+   <a href="index.html" class="popup-nav"><img src="{{ asset('/images/site/mobile-logo.png') }}" alt="Paper Tiger Logo" /></a>
 </div> <!-- .logo-wrapper -->
 <div class="col-xs-6 align-right">
-   <a href="#" class="close-trigger visible-xs unajax"> <img src="assets/images/site/mobile-close.png" width="24" height="25" title="Menu" alt="Menu" /> </a>
+   <a href="#" class="close-trigger visible-xs unajax"> <img src="{{ asset('/images/site/mobile-close.png') }}" width="24" height="25" title="Menu" alt="Menu" /> </a>
 </div>
 </div>
 <div class="row">
