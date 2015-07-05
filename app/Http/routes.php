@@ -21,12 +21,6 @@ Route::get ("work", array(
 				->with("title", "Work");
 }));
 
-Route::get ("company", array(
-	"as" => "company", function() {
-	return View::make("company")
-				->with("title", "Company");
-}));
-
 Route::get ("design", array(
 	"as" => "services/design", function() {
 	return View::make("services/design")
@@ -37,6 +31,18 @@ Route::get ("branding", array(
 	"as" => "services/branding", function() {
 	return View::make("services/branding")
 				->with("title", "Branding Services & Logo Design");
+}));
+
+Route::get ("development", array(
+	"as" => "services/development", function() {
+	return View::make("services/development")
+				->with("title", "SquareSpace, WordPress, Shopify, ExpressionEngine Development Services");
+}));
+
+Route::get ("company", array(
+	"as" => "company", function() {
+	return View::make("company")
+				->with("title", "Company");
 }));
 
 Route::get ("contact", array(
