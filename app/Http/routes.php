@@ -26,3 +26,9 @@ Route::get ("contact", array(
 	return View::make("contact")
 				->with("title", "Contact Us");
 }));
+
+Route::get ("company", array(
+	"as" => "company", function() {
+	return View::make("company")
+				->with("title", "Company");
+}));
