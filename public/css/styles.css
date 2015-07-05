@@ -1,52 +1,3 @@
-/*                                                                      
-                                                               TTP              
-                                                             TPPPP,             
-                                                     TPP    TPPPPP7        :    
-                                      TPPP         IPPPPTT  TPPPPPPPPP    T$    
-           PPT            :TPTP       PPPPTTPPP   :TPPPPTPPP  ~PPPPPPP   IT     
-           PPPP$ ZPT      PPPPP       PPPPPPPPPZ  PPPPT =PPT  TP PPPT    P      
-          :TPPPPPPPPT    PPPPPPPPP   $PPP8 PPPPI IPPPT  PPT  ,P  PPPZ   P7      
-          PPPPPPPPPPT   PPPPPPPPPP~  PPPP  :PPP  PPPP  PP:   P~ OPPP   TT       
-      TPT TPPP  ?PPPP  TPPPP +PPPP   PPPT  PPPP  PPPT~PT    PT  TPP,  PP        
-      PTPPPPPT  ,PPP8TPPPPP  TPPP   +PPP   TPPZ  PPPPP     PP   PPP  TP         
-        PPPPP,  TPPPPPTTPP,  PPPT   PPPP  PPPT   PPP=    ~PP    PPPPPP          
-        :PPPT   PPPP   PPP  PPPP   TPPP   PPT   PPPPP  +PPT     PPPPT           
-        ,PPP$  PPPP   :PP? ~PPPP  TPPPPPTPPPPPPPP  TPPPPT        TP             
-        PPPP   PPP8   :PP  PPPTPPPPPPP8TTTP +P                                  
-        PPPPI+PPPP     PPPPP8  TPP PPP                                          
-        PPP+TPPP+       =TP       PPPP                                          
-       TPPP                       TPPT                                          
-       TPPT                      $PPP=                                          
-      8PPP~                      PPPP                                           
-      TPPP       ,PO             PPPT                      ~T,                  
-     ,PPPP       PPPPT    PPPP     :,                    TPPPT                  
-     PPPPT      ZPPPPT   TPPPPT                  PT,    PPPPPP                  
-      PPP=      PPPPT     TPPP     TPPT        TPPPPP   PPPPPPPPPP    T         
-               +PPPP              PPPPPP      TPPPPPPPP, PTPPPPPPP   PT         
-          PPPPPPPPPPPT  ZTT:     $PPPPPPTT    PPPPP PPP~  PZ PPPT   +P          
-           :TPPPPPP,    PPPPT    PPPPTTPPPP  PPPPZ  PPZ  8P PPPP    P           
-              PPPP     PPPPP:   TPPPP $PPPP  PPPT  TT   ,P  PPPP   TT           
-              PPPO    OPPPPP   7PPPP  PPPP:  PPP,ZPP    P+  PPP   PP            
-             TPPP     PTPPP    TPPP   PPPP  ,PPPPT     TP   PPT  PP             
-             PPP+    P,PPPP   PPPPT   PPP?   PPP=    7PP    PPPTPP              
-             PPP    PT TPP   PP8PP   ?PPT   PPPP    PPT     PPPPT               
-            7PPP   PT :PPP  PT 8PP  TPPPT PPI OTPPPPT        PP,                
-            TPP   PP   TPP:PP   PPPPPPPPPPT                                     
-             PPPPPT     TPPP     =, PPPPP                                       
-              PPPP       +T      PPPPPPP                                        
-                               TPPP TPP                                         
-                              PPP   PPP                                         
-                              TPP  =PPP                                         
-                              PPP  TPP                                          
-                              TPPTPTP                                           
-                               TPPPP                                            
-                                78                                              
-*//* Colors */
-/*#aaaaaa;*/
-/* Other Vars */
-/* Font Family & Sizes */
-/* Font Weights */
-/* Selection & Placeholder */
 ::selection {
   color: #ffffff;
   background: #4095ff;
@@ -1352,7 +1303,7 @@ background-size: cover !important;
   text-align: left;
   list-style-type: none;
   display: inline-block;
-  width: 33.33%;
+  width: 33%;
   height: 342px;
   position: relative;
   margin: 0;

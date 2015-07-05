@@ -25,22 +25,22 @@
     		<div class="container wider">
 			    <div class="row">
 				   <div class="col-md-6 col-sm-4 col-xs-6 ogo-wrapper">
-					   <a href="index.html" class="hidden-xs" id="fixed-logo-link"><img src="{{ asset('/images/site/logo.png') }}" alt="Paper Tiger Logo" title="Paper Tiger" /></a>
+					   <a href="index" class="hidden-xs" id="fixed-logo-link"><img src="{{ asset('/images/site/logo.png') }}" alt="Paper Tiger Logo" title="Paper Tiger" /></a>
 				   </div> <!-- .logo-wrapper -->
 				   <div class="col-md-6 col-sm-8 col-xs-6 align-right">
 					   <ul class="top-nav  hidden-xs">
-						   	<li> <a href="work.html">Work</a> </li>
+						   	<li> <a href="work">Work</a> </li>
 						   	<li class="hassubmenu"> 
 							    <a href="#">Services</a> <span class="arrow"></span> 
 							    <ul class="submenu">
-							       <li> <a href="design.html" data-loader-position="right">Design</a> </li>
-							       <li> <a href="branding.html" data-loader-position="right">Branding</a> </li>
-							       <li> <a href="development.html" data-loader-position="right">Development</a> </li>
-							       <li> <a href="consulting.html" data-loader-position="right">Consulting</a> </li>
+							       <li> <a href="design" data-loader-position="right">Design</a> </li>
+							       <li> <a href="branding" data-loader-position="right">Branding</a> </li>
+							       <li> <a href="development" data-loader-position="right">Development</a> </li>
+							       <li> <a href="consulting" data-loader-position="right">Consulting</a> </li>
 							    </ul>
 						   </li>
-						   <li> <a href="company.html">Company</a> </li>
-						   <li> <a href="contact.html">Contact</a> </li>
+						   <li> <a href="company">Company</a> </li>
+						   <li> <a href="contact">Contact</a> </li>
 						   <li class="socmed"> <a href="https://twitter.com/papertigerftw" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> </li>
 						   <!--<li class="socmed"> <a href="http://instagram.com/papertigeragency" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a> </li>-->
 					   </ul> <!-- .top-nav -->
@@ -60,22 +60,22 @@
 				    <div class="container wider">
 					    <div class="row">
 						   <div class="col-md-6 col-sm-4 col-xs-6 logo-wrapper">
-							   <a href="index.html"><img src="{{ asset('/images/site/logo.png') }}" width="98" height="98" title="Paper Tiger" alt="Paper Tiger Logo" /></a>
+							   <a href="index"><img src="{{ asset('/images/site/logo.png') }}" width="98" height="98" title="Paper Tiger" alt="Paper Tiger Logo" /></a>
 						   </div> <!-- .logo-wrapper -->
 						   <div class="col-md-6 col-sm-8 col-xs-6 align-right">
 							   <ul class="top-nav hidden-xs">
-								   <li> <a href="work.html">Work</a> </li>
+								   <li> <a href="work">Work</a> </li>
 								   <li class="hassubmenu"> 
 								     <a href="#">Services</a> <span class="arrow"></span> 
 								     <ul class="submenu">
-								       <li> <a href="design.html" data-loader-position="right">Design</a> </li>
-								       <li> <a href="branding.html" data-loader-position="right">Branding</a> </li>
-								       <li> <a href="development.html" data-loader-position="right">Development</a> </li>
-								       <li> <a href="consulting.html" data-loader-position="right">Consulting</a> </li>
+								       <li> <a href="design" data-loader-position="right">Design</a> </li>
+								       <li> <a href="branding" data-loader-position="right">Branding</a> </li>
+								       <li> <a href="development" data-loader-position="right">Development</a> </li>
+								       <li> <a href="consulting" data-loader-position="right">Consulting</a> </li>
 								     </ul>
 								   </li>
-								   <li> <a href="company.html">Company</a> </li>
-								   <li> <a href="contact.html">Contact</a> </li>
+								   <li> <a href="company">Company</a> </li>
+								   <li> <a href="contact">Contact</a> </li>
 								   <li class="socmed"> <a href="https://twitter.com/papertigerftw" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> </li>
 								   <!--<li class="socmed"> <a href="http://instagram.com/papertigerftw" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a> </li>-->
 							   </ul> <!-- .top-nav -->
@@ -104,107 +104,107 @@
 		    <section id="work-full">
 			    <ul>
 			    	<li>
-			    		<a href="vydia.html" style="background-image:url({{ asset('/images/uploads/vydia-thumb.jpg') }})"> <span></span>
+			    		<a href="vydia" style="background-image:url({{ asset('/images/uploads/vydia-thumb.jpg') }})"> <span></span>
 				    		<img src="{{ asset('/images/uploads/vydia.png') }}" width="220" title="Vydia" alt="Vydia" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="the-new-york-times.html" style="background-image:url({{ asset('/images/uploads/nyt-thumb.jpg') }})"> <span></span>
+				    	<a href="the-new-york-times" style="background-image:url({{ asset('/images/uploads/nyt-thumb.jpg') }})"> <span></span>
 				    		<img src="{{ asset('/images/uploads/nyt-logo.png') }}" width="220" title="The New York Times" alt="The New York Times" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="the-point-magazine.html" style="background-image:url({{ asset('/images/uploads/phenomenon/the-point-thumb.jpg') }})"> <span></span>
+				    	<a href="the-point-magazine" style="background-image:url({{ asset('/images/uploads/phenomenon/the-point-thumb.jpg') }})"> <span></span>
 				    		<img src="{{ asset('/images/uploads/phenomenon/the-point.png') }}" width="220" title="The Point Magazine" alt="The Point Magazine" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="north-carolina-museum-of-art.html" style="background-image:url({{ asset('/images/uploads/NCMA/ncma_thumb.jpg') }})"> <span></span>
+				    	<a href="north-carolina-museum-of-art" style="background-image:url({{ asset('/images/uploads/NCMA/ncma_thumb.jpg') }})"> <span></span>
 				    		<img src="{{ asset('/images/uploads/NCMA/ncma-logo.png') }}" width="220" title="North Carolina Museum of Art" alt="North Carolina Museum of Art" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="jetpack.html" style="background-image:url({{ asset('/images/uploads/jetpack-thumb.jpg') }})"> <span></span>
+				    	<a href="jetpack" style="background-image:url({{ asset('/images/uploads/jetpack-thumb.jpg') }})"> <span></span>
 				    		<img src="{{ asset('/images/uploads/jetpack.png') }}" width="220" title="Jetpack" alt="Jetpack" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="clinica-vida-bem-vinda.html" style="background-image:url({{ asset('/images/uploads/VBV-thumb.jpg') }})"> <span></span>
+				    	<a href="clinica-vida-bem-vinda" style="background-image:url({{ asset('/images/uploads/VBV-thumb.jpg') }})"> <span></span>
 				    		<img src="{{ asset('/images/uploads/vbv.png') }}" width="220" title="Clínica VidaBemVinda" alt="Clínica VidaBemVinda" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="yoga-today.html" style="background-image:url({{ asset('/images/uploads/yogo-thumb.jpg') }})"> <span></span>
+				    	<a href="yoga-today" style="background-image:url({{ asset('/images/uploads/yogo-thumb.jpg') }})"> <span></span>
 				    		<img src="{{ asset('/images/uploads/yt-logo.png') }}" width="220" title="Yoga Today" alt="Yoga Today" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="digitalundivided.html" style="background-image:url({{ asset('/images/uploads/did-thumb.jpg') }})"> <span></span>
+				    	<a href="digitalundivided" style="background-image:url({{ asset('/images/uploads/did-thumb.jpg') }})"> <span></span>
 				    		<img src="{{ asset('/images/uploads/did-logo.png') }}" width="220" title="digitalundivided" alt="digitalundivided" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="phenomenon.html" style="background-image:url({{ asset('/images/uploads/phenomenon/phen_thumb.jpg') }})"> <span></span>
+				    	<a href="phenomenon" style="background-image:url({{ asset('/images/uploads/phenomenon/phen_thumb.jpg') }})"> <span></span>
 				    		<img src="{{ asset('/images/uploads/phenomenon/phen-logo-2.jpg') }}" width="220" title="Phenomenon" alt="Phenomenon" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="cold-pressed-raw.html" style="background-image:url({{ asset('/images/uploads/CPR/CPR-thumb.jpg') }}"> <span></span>
+				    	<a href="cold-pressed-raw" style="background-image:url({{ asset('/images/uploads/CPR/CPR-thumb.jpg') }}"> <span></span>
 				    		<img src="{{ asset('/images/uploads/CPR/CPR-logo-2.png') }}" width="220" title="Cold Pressed Raw" alt="Cold Pressed Raw" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="future-hosting.html" style="background-image:url({{ asset('/images/uploads/futurehosting-thmb-bg.jpg') }}"> <span></span>
+				    	<a href="future-hosting" style="background-image:url({{ asset('/images/uploads/futurehosting-thmb-bg.jpg') }}"> <span></span>
 				    		<img src="{{ asset('/images/uploads/fh-logo.png') }}" width="220" title="Future Hosting" alt="Future Hosting" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="alternative-press.html" style="background-image:url({{ asset('/images/uploads/work1.png') }})"> <span></span>
+				    	<a href="alternative-press" style="background-image:url({{ asset('/images/uploads/work1.png') }})"> <span></span>
 				    		<img src="{{ asset('/images/uploads/client-logo-ap.png') }}" width="220" title="Alternative Press Magazine" alt="Alternative Press Magazine" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="blood-brother-movie.html" style="background-image:url({{ asset('/images/uploads/blood-brother_thumb.jpg') }})"> <span></span>
+				    	<a href="blood-brother-movie" style="background-image:url({{ asset('/images/uploads/blood-brother_thumb.jpg') }})"> <span></span>
 				    		<img src="{{ asset('/images/uploads/blood-brother_logo.png') }}" width="220" title="Blood Brother" alt="Blood Brother" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="obsessive-compulsive-cosmetics.html" style="background-image:url({{ asset('/images/uploads/occ-thumb.jpg') }})"> <span></span>
+				    	<a href="obsessive-compulsive-cosmetics" style="background-image:url({{ asset('/images/uploads/occ-thumb.jpg') }})"> <span></span>
 				    		<img src="{{ asset('/images/uploads/OCC/OCC_logo.png') }}" width="220" title="Obsessive Compulsive Cosmetics" alt="Obsessive Compulsive Cosmetics" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="harvard-school-of-public-health.html" style="background-image:url({{ asset('/images/uploads/hsph-thumb.jpg') }})"> <span></span>
+				    	<a href="harvard-school-of-public-health" style="background-image:url({{ asset('/images/uploads/hsph-thumb.jpg') }})"> <span></span>
 				    		<img src="{{ asset('/images/uploads/HSPH-logo.png') }}" width="220" title="Harvard School of Public Health" alt="Harvard School of Public Health" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="animal.html" style="background-image:url({{ asset('/images/uploads/animal-thumb.jpg') }})"> <span></span>
+				    	<a href="animal" style="background-image:url({{ asset('/images/uploads/animal-thumb.jpg') }})"> <span></span>
 				    		<img src="{{ asset('/images/uploads/animal-logo.png') }}" width="220" title="Animal" alt="Animal" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="traveling-picture-show.html" style="background-image:url({{ asset('/images/uploads/tpsc.jpg') }})"> <span></span>
+				    	<a href="traveling-picture-show" style="background-image:url({{ asset('/images/uploads/tpsc.jpg') }})"> <span></span>
 				    		<img src="{{ asset('/images/uploads/tpsc.png') }}" width="220" title="Traveling Picture Show" alt="Traveling Picture Show" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="get-right-music.html" style="background-image:url({{ asset('/images/uploads/grm-thumb-2.jpg') }})"> <span></span>
+				    	<a href="get-right-music" style="background-image:url({{ asset('/images/uploads/grm-thumb-2.jpg') }})"> <span></span>
 				    		<img src="{{ asset('/images/uploads/grm-logo-2.png') }}" width="220" title="Get Right Music" alt="Get Right Music" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="impactree.html" style="background-image:url({{ asset('/images/uploads/imp-thumb-2.jpg') }})"> <span></span>
+				    	<a href="impactree" style="background-image:url({{ asset('/images/uploads/imp-thumb-2.jpg') }})"> <span></span>
 				    		<img src="{{ asset('/images/uploads/imp-logo.png') }}" width="220" title="Impactree" alt="Impactree" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="world-wide-hearing.html" style="background-image:url({{ asset('/images/uploads/wwh_thumb.jpg') }})"> <span></span>
+				    	<a href="world-wide-hearing" style="background-image:url({{ asset('/images/uploads/wwh_thumb.jpg') }})"> <span></span>
 				    		<img src="{{ asset('/images/uploads/wwh_logo.png') }}" width="220" title="World Wide Hearing" alt="World Wide Hearing" /> 
 				    	</a> 
 				    </li>
 				    <li>
-				    	<a href="giovanni-rana-restaurant.html" style="background-image:url({{ asset('/images/uploads/rana-thumb.jpg') }})"> <span></span>
+				    	<a href="giovanni-rana-restaurant" style="background-image:url({{ asset('/images/uploads/rana-thumb.jpg') }})"> <span></span>
 				    		<img src="{{ asset('/images/uploads/rana-logo.png') }}" width="220" title="Giovanni Rana Restaurant" alt="Giovanni Rana Restaurant" /> 
 				    	</a> 
 				    </li>
@@ -309,7 +309,7 @@
 		    
 		    <section id="start-new-project">
 			    <h1>Let's start a new project together!</h1>
-			    <a href="contact.html" class="link-button no-arrow sans"> Get In Touch &raquo;</a>
+			    <a href="contact" class="link-button no-arrow sans"> Get In Touch &raquo;</a>
 		    </section> <!-- #start-new-project -->
 		
 		   	    <footer id="global-footer" class="no-margin">
@@ -319,10 +319,10 @@
 				    <div class="col-md-7">
 					    
 					    <ul class="footer-nav">
-						    <li> <a href="index.html"> <img src="{{ asset('/images/site/logo-footer.png') }}" title="Paper Tiger" alt="Paper Tiger Logo" /> </a> </li>
-						    <li> <a href="work.html">Work</a> </li>
-						    <li> <a href="company.html">Company</a> </li>
-						    <li> <a href="contact.html">Contact</a> </li>
+						    <li> <a href="index"> <img src="{{ asset('/images/site/logo-footer.png') }}" title="Paper Tiger" alt="Paper Tiger Logo" /> </a> </li>
+						    <li> <a href="work">Work</a> </li>
+						    <li> <a href="company">Company</a> </li>
+						    <li> <a href="contact">Contact</a> </li>
 						    <li class="last-text"> <a href="http://papertiger.workable.com/" target="_blank">Careers</a> </li>
 						    <li class="socmed hidden-small"> <a href="https://twitter.com/papertigerftw" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> </li>
 						    <!--<li class="socmed hidden-small"> <a href="https://www.facebook.com/papertigeragency" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> </li>
