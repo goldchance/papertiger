@@ -39,6 +39,12 @@ Route::get ("development", array(
 				->with("title", "SquareSpace, WordPress, Shopify, ExpressionEngine Development Services");
 }));
 
+Route::get ("consulting", array(
+	"as" => "services/consulting", function() {
+	return View::make("services/consulting")
+				->with("title", "Consulting Services");
+}));
+
 Route::get ("company", array(
 	"as" => "company", function() {
 	return View::make("company")
