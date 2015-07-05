@@ -33,6 +33,12 @@ Route::get ("design", array(
 				->with("title", "Digital, Web and Graphic Design Services");
 }));
 
+Route::get ("branding", array(
+	"as" => "services/branding", function() {
+	return View::make("services/branding")
+				->with("title", "Branding Services & Logo Design");
+}));
+
 Route::get ("contact", array(
 	"as" => "contact", function() {
 	return View::make("contact")
