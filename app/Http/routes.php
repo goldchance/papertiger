@@ -21,14 +21,20 @@ Route::get ("work", array(
 				->with("title", "Work");
 }));
 
-Route::get ("contact", array(
-	"as" => "contact", function() {
-	return View::make("contact")
-				->with("title", "Contact Us");
-}));
-
 Route::get ("company", array(
 	"as" => "company", function() {
 	return View::make("company")
 				->with("title", "Company");
+}));
+
+Route::get ("design", array(
+	"as" => "services/design", function() {
+	return View::make("services/design")
+				->with("title", "Digital, Web and Graphic Design Services");
+}));
+
+Route::get ("contact", array(
+	"as" => "contact", function() {
+	return View::make("contact")
+				->with("title", "Contact Us");
 }));

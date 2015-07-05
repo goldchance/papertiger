@@ -69,9 +69,53 @@
 	</script>
 
   </head>
-  <body class="home">
 
     @yield('content')
+
+    <section id="mobile-popup-menu" class="visible-xs">
+	    <div class="container wider">
+		    <div class="row">
+			   <div class="col-xs-6 logo-wrapper">
+				   <a href="index" class="popup-nav"><img src="{{ asset('/images/site/mobile-logo.png') }}" alt="Paper Tiger Logo" /></a>
+			   </div> <!-- .logo-wrapper -->
+			   <div class="col-xs-6 align-right">
+				   <a href="#" class="close-trigger visible-xs unajax"> <img src="{{ asset('/images/site/mobile-close.png') }}" width="24" height="25" title="Menu" alt="Menu" /> </a>
+			   </div>
+		    </div>
+		    <div class="row">
+			    <div class="col-xs-12">
+				    <ul class="top-nav">
+					   <li> <a class="popup-nav" href="work">Work</a> </li>
+					   <li> <a class="popup-nav hassubmenu" href="#">Services</a>
+					     <ul class="submenu">
+					       <li> <a class="popup-nav" href="design">Design</a> </li>
+					       <li> <a class="popup-nav" href="branding">Branding</a> </li>
+					       <li> <a class="popup-nav" href="development">Development</a> </li>
+					       <li> <a class="popup-nav" href="consulting">Consulting</a> </li>
+					     </ul>
+					   </li>
+					   <li> <a class="popup-nav" href="company">Company</a> </li>
+					   <li> <a class="popup-nav" href="http://papertiger.workable.com/" target="_blank">Careers</a> </li>
+					   <li> <a class="popup-nav" href="contact">Contact</a> </li>
+				   </ul> <!-- .top-nav -->
+			    </div>
+		    </div>
+	    </div>
+
+
+	    <footer class="footer-fixed">
+		    <div class="container wider">
+			    <div class="row">
+				    <div class="cold-md-12">
+					    <span> &copy; 2015 Paper Tiger </span>
+					    <span> 67 E Ridgewood Ave, Ridgewood, NJ </span>
+					    <span> <a class="tel" href="tel:+1-201-465-2500">+1-201-465-2500</a> </span>
+					    <span> <a href="contact" data-loader-position="right" class="hello popup-nav">Say Hello</a> </span>
+				    </div>
+			    </div>
+		    </div>
+	    </footer> <!-- #footer-fixed -->
+    </section> <!-- #mobile-popup-menu -->
 
     <script> var polyfilter_scriptpath = '{{ asset("/js/vendor/filters-polify/index.html") }}';</script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>

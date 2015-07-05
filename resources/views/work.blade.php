@@ -312,38 +312,38 @@
 			    <a href="contact" class="link-button no-arrow sans"> Get In Touch &raquo;</a>
 		    </section> <!-- #start-new-project -->
 		
-		   	    <footer id="global-footer" class="no-margin">
-		    <div class="container">
-			    
-			    <div class="row">
-				    <div class="col-md-7">
-					    
-					    <ul class="footer-nav">
-						    <li> <a href="index"> <img src="{{ asset('/images/site/logo-footer.png') }}" title="Paper Tiger" alt="Paper Tiger Logo" /> </a> </li>
-						    <li> <a href="work">Work</a> </li>
-						    <li> <a href="company">Company</a> </li>
-						    <li> <a href="contact">Contact</a> </li>
-						    <li class="last-text"> <a href="http://papertiger.workable.com/" target="_blank">Careers</a> </li>
-						    <li class="socmed hidden-small"> <a href="https://twitter.com/papertigerftw" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> </li>
-						    <!--<li class="socmed hidden-small"> <a href="https://www.facebook.com/papertigeragency" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> </li>
-						    <li class="socmed hidden-small"> <a href="http://instagram.com/papertigerftw" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a> </li>
-						    <li><div class="fb-like" data-href="http://facebook.com/papertigeragency" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true" style="float: right; display:inline; padding: 8px 0 0 8px;"></div></li>-->
-					    </ul>
-					    
-					    <ul class="footer-nav visible-xs no-padding">
-						    <li class="socmed"> <a href="https://twitter.com/papertigerftw" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> </li>
-						    <!--<li class="socmed"> <a href="https://www.facebook.com/papertigeragency" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> </li>
-						    <li class="socmed"> <a href="http://instagram.com/papertigerftw" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a> </li>-->
-					    </ul>
-					    
-				    </div> <!-- .col-md-7 -->
-				    <div class="col-md-5 align-right">
-					    <div class="copyright"><span>&copy; 2015 Paper Tiger. Made in New Jersey.</span></div>
-				    </div> <!-- .col-md-5 -->
-			    </div> <!-- .row -->
-			    
-		    </div>
-		</footer> <!-- #global-footer -->
+	   	    <footer id="global-footer" class="no-margin">
+			    <div class="container">
+				    
+				    <div class="row">
+					    <div class="col-md-7">
+						    
+						    <ul class="footer-nav">
+							    <li> <a href="index"> <img src="{{ asset('/images/site/logo-footer.png') }}" title="Paper Tiger" alt="Paper Tiger Logo" /> </a> </li>
+							    <li> <a href="work">Work</a> </li>
+							    <li> <a href="company">Company</a> </li>
+							    <li> <a href="contact">Contact</a> </li>
+							    <li class="last-text"> <a href="http://papertiger.workable.com/" target="_blank">Careers</a> </li>
+							    <li class="socmed hidden-small"> <a href="https://twitter.com/papertigerftw" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> </li>
+							    <!--<li class="socmed hidden-small"> <a href="https://www.facebook.com/papertigeragency" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> </li>
+							    <li class="socmed hidden-small"> <a href="http://instagram.com/papertigerftw" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a> </li>
+							    <li><div class="fb-like" data-href="http://facebook.com/papertigeragency" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true" style="float: right; display:inline; padding: 8px 0 0 8px;"></div></li>-->
+						    </ul>
+						    
+						    <ul class="footer-nav visible-xs no-padding">
+							    <li class="socmed"> <a href="https://twitter.com/papertigerftw" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> </li>
+							    <!--<li class="socmed"> <a href="https://www.facebook.com/papertigeragency" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> </li>
+							    <li class="socmed"> <a href="http://instagram.com/papertigerftw" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a> </li>-->
+						    </ul>
+						    
+					    </div> <!-- .col-md-7 -->
+					    <div class="col-md-5 align-right">
+						    <div class="copyright"><span>&copy; 2015 Paper Tiger. Made in New Jersey.</span></div>
+					    </div> <!-- .col-md-5 -->
+				    </div> <!-- .row -->
+				    
+			    </div>
+			</footer> <!-- #global-footer -->
 		    
 	    </section> <!-- #work -->
 
