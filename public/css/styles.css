@@ -184,10 +184,10 @@ body.light {
 body.light #client #client-content {
   background: #ffffff;
 }
-body.home {
+/*body.home {
   background: #000000;
   color: #ffffff;
-}
+}*/
 /* Global Styling */
 .nopadding {
   padding: 0 !important;

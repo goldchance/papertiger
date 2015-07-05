@@ -17,5 +17,12 @@ Route::get('index', 'HomeController@index');
 
 Route::get ("work", array(
 	"as" => "work", function() {
-	return View::make("work");
+	return View::make("work")
+				->with("title", "Work");
+}));
+
+Route::get ("contact", array(
+	"as" => "contact", function() {
+	return View::make("contact")
+				->with("title", "Contact Us");
 }));
