@@ -2025,7 +2025,7 @@ background-size: cover !important;
 #about #explore-mobile ul.leadership li {
   display: inline-block;
   vertical-align: top;
-  width: 33.33%;
+  width: 32%;
   height: 100px;
   padding-bottom: 33.33%;
   height: 0;
@@ -2038,7 +2038,7 @@ background-size: cover !important;
 }
 #about #explore-mobile ul.leadership-people li {
   display: inline-block;
-  width: 33.33%;
+  width: 32%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -3260,7 +3260,7 @@ form.wufoo li.error .desc {
     text-align: center;
   }
   #work-full ul li {
-    width: 50%;
+    width: 49%;
     height: 150px;
   }
   #work #past-projects {
